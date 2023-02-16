@@ -1,32 +1,137 @@
 .section {
-    background-color: lightgray;
     display: flex;
+    padding-inline: 150px;
 }
 
-.header h2 {
-    padding: 5px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937
 }
 
 #links {
     display: flex;
-    flex: 1;
-    justify-content: right;
-    padding: 5px;
+    justify-content: flex-end;
 }
 
-#links h3 {
-    padding: 5px;
+h2, h3 {
+    margin: 1px;
 }
 
-.section.one  {
-    padding: 20px;
+.header h2 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header h3 {
+    margin-inline-start: 10px;
+}
+
+h3 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.one {
+    justify-content: center;
+    padding-block: 60px;
+    background-color: #1F2937
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+button {
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding-inline: 15px;
+    padding-block: 3px;
+    border-radius: 5px;
+}
+
+.one div {
+    width: 400px;
 }
 
 .section.one img {
-    width: 300px;
+    height: 175px;
+}
+
+.two {
+    flex-direction: column;
+}
+
+.two .rand-info {
+    display: flex;
+    justify-content: center;
+}
+
+.two h2 {
+    text-align: center;
+}
+
+.rand-info div {
+    width: 100px;
+    margin: 15px;
+}
+
+.two p {
+    margin-block: 0px;
+    text-align: center;
 }
 
 .section.two div div img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding-block: 70px;
+}
+
+i {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#signature {
+    text-align: right;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.four {
+    justify-content: center;
+    padding: 50px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.four h2, .four p {
+    margin: 0px;
+}
+
+.four button {
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+.footer {
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.footer p {
+    color: #E5E7EB;
 }
